@@ -509,11 +509,18 @@ body{font-family:'Kantumruy Pro','Inter',sans-serif;background:var(--bg);color:v
   .fr{grid-template-columns:1fr!important}
   .sum-grid{grid-template-columns:1fr 1fr}
 }
+.back-float{position:fixed;top:150px;left:20px;z-index:1000;display:flex;align-items:center;justify-content:center;width:48px;height:48px;background:rgba(255,255,255,.9);border:1px solid rgba(0,0,0,.1);border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,.15);cursor:pointer;text-decoration:none;transition:all .2s}
+.back-float:hover{background:#fff;transform:scale(1.05)}
+.back-float svg{width:24px;height:24px;fill:#333}
 </style>
 </head>
 <body>
 
 <a class="skip-link" href="#main-content">Skip to content</a>
+
+<a href="index.html" class="back-float">
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+</a>
 
 <!-- ─ HEADER ─ -->
 <header class="hdr">
